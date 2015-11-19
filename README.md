@@ -95,7 +95,7 @@ $ ionic platform add ios [android]
 
  * Build your app: 
  ```bash
- $ ionic build <PLATFORM> 
+$ ionic build <PLATFORM> 
   ```
 
  * Simulate your app: 
