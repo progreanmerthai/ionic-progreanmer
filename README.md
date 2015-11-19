@@ -73,4 +73,42 @@ $ cd <project name>  && ls
 └── www            // application - JS code and libs, CSS, images, etc.
 
 ```
-  
+
+ * Setup this project to use Sass:
+ ```bash 
+$ ionic setup sass
+```
+ 
+
+ * Develop in the browser with live reload:
+ ```bash 
+$ ionic serve
+```
+
+ * Add a platform (ios or Android): 
+ ```bash 
+$ ionic platform add ios [android]
+```
+   Note: iOS development requires OS X currently
+   See the Android Platform Guide for full Android installation instructions:
+   https://cordova.apache.org/docs/en/edge/guide_platforms_android_index.md.html
+
+ * Build your app: 
+ ```bash
+ $ ionic build <PLATFORM> 
+  ```
+
+ * Simulate your app: 
+```bash
+$ ionic emulate <PLATFORM>
+```
+ * Run your app on a device: 
+ ```bash 
+$ ionic run <PLATFORM>
+```
+
+ * Package an app using Ionic package service: 
+
+```bash 
+$ ionic package <MODE> <PLATFORM>
+```
