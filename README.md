@@ -103,7 +103,7 @@ $ ionic build <PLATFORM>
 $ ionic emulate <PLATFORM>
 ```
  * Run your app on a device: 
- ```bash 
+```bash 
 $ ionic run <PLATFORM>
 ```
 
