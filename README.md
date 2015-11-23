@@ -129,4 +129,12 @@ Go back to the terminal and type the command below to run for Android.
 $ ionic run android --device
 ```
 
+### Install Setting up our plugins and libraries dbSQLite
+```bash 
+$ ionic run android --device
+```
+
+
+
+
 
