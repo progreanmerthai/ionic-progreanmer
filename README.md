@@ -106,6 +106,13 @@ $ ionic emulate <PLATFORM>
 ```bash 
 $ ionic run <PLATFORM>
 ```
+ * Package an app using Ionic package service: 
+
+```bash 
+$ ionic package <MODE> <PLATFORM>
+```
+
+
 #Android
 First step is to enable Developer Options on your Android phone. By default the Developer Options are turned off. Once you turn them on, enable USB debugging.
 
@@ -123,8 +130,3 @@ $ ionic run android --device
 ```
 
 
- * Package an app using Ionic package service: 
-
-```bash 
-$ ionic package <MODE> <PLATFORM>
-```
